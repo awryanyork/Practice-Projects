@@ -4,7 +4,10 @@
 
 * {
     box-sizing: border-box;
-    font: $font-stack;
+}
+
+body {
+    font-family: $font-stack;
 }
 
 /////////////// HEADER ///////////////

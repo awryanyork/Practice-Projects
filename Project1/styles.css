@@ -42,8 +42,10 @@ table {
   border-spacing: 0; }
 
 * {
-  box-sizing: border-box;
-  font: Helvetica, sans-serif; }
+  box-sizing: border-box; }
+
+body {
+  font-family: Helvetica, sans-serif; }
 
 #header {
   background-image: url(img/bg.jpg);
