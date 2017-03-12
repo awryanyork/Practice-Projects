@@ -20,11 +20,16 @@ body {
     padding: 4.5em 1.5em;
 }
 
+.inner {
+    margin: 0 0 2em 0;
+}
+
 .avatar.link {
+    display: inline-block;
     margin: 0 0 1em 0;
 }
 
-.header.avatar {
+.header_avatar {
     width: 6.25em;
     border-radius: 100%;
 }
