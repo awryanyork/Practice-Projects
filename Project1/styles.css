@@ -60,7 +60,7 @@ a {
   width: 100%;
   border-radius: .35em;
   border: 3px solid #EFEFEF;
-  padding: 1.15em 0;
+  padding: .85em 0;
   text-align: center; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -72,7 +72,7 @@ p {
 strong {
   color: #FFFFFF; }
 
-button {
+.button {
   color: #787878; }
 
 #header {
@@ -106,6 +106,9 @@ h1 {
 
 .main {
   padding: 2.25em 1.5em 0.25em 1.5em; }
+
+#section1 {
+  margin-bottom: 2.25em; }
 
 h2 {
   font-size: 1.35em;

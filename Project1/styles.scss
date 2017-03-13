@@ -25,10 +25,8 @@ a {
     width: 100%;
     border-radius: .35em;
     border: 3px solid $border-color;
-    padding: 1.15em 0;
+    padding: .85em 0;
     text-align: center;
-    
-    // padding: ;
 }
 
 
@@ -46,10 +44,9 @@ strong {
     color: #FFFFFF;
 }
 
-button {
+.button {
     color: $heading-color;
 }
-
 
 
 /////////////// HEADER ///////////////
@@ -90,10 +87,15 @@ h1 {
     border-bottom: 1px dotted;
 }
 
+
 /////////////// SECTION 1 & 2 ///////////////
 
 .main {
     padding: 2.25em 1.5em 0.25em 1.5em;
+}
+
+#section1 {
+    margin-bottom: 2.25em; 
 }
 
 h2 {
