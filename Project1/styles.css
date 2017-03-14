@@ -80,7 +80,10 @@ a {
   .img a {
     margin-bottom: 1.5em; }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+  color: rgba(255, 255, 255, 0.5); }
+
+h2, h3, h4, h5, h6 {
   color: #787878; }
 
 p {
@@ -185,5 +188,27 @@ h1 {
   .recent_work {
     font-size: 1.5em;
     line-height: 1.5em; } }
+@media (min-width: 769px) {
+  #header {
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    padding: 6em 3em 3em;
+    text-align: right; }
+
+  h1 {
+    font-size: 1.25em; }
+
+  .full_width {
+    display: inline; }
+
+  .main {
+    margin-left: 30%;
+    padding: 6em 3em 3em; }
+
+  .main_head {
+    font-size: 2em; } }
 
 /*# sourceMappingURL=styles.css.map */

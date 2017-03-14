@@ -62,7 +62,11 @@ a {
 
 /////////////// COLORS ///////////////
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+h2, h3, h4, h5, h6 {
     color: $heading-color;
 }
 
@@ -155,6 +159,8 @@ h1 {
 
 //////////////////// MEDIA QUERIES ////////////////////
 
+//// MEDIUM ////
+
 @media (min-width: 426px) {
 
     // HEADER //
@@ -224,11 +230,44 @@ h1 {
         font-size: 1.5em;
         line-height: 1.5em;
     }
-
-
-
 }
 
+
+//// LARGE ////
+@media (min-width: 769px) {
+
+    // HEADER //
+    #header {
+        top: 0;
+        left: 0;
+        width: 30%;
+        height: 100%;
+        position: fixed;
+        padding: 6em 3em 3em;
+        text-align: right;
+    }
+
+    h1 {
+        font-size: 1.25em;
+    }
+
+    .full_width {
+        display: inline;
+    }
+
+    // SECTION 1 & 2 //
+
+    .main {
+        margin-left: 30%;
+        padding: 6em 3em 3em;
+    }
+
+    // section1
+
+    .main_head {
+        font-size: 2em;
+    }
+}
 
 
 
