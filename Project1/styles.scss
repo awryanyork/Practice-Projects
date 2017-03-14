@@ -36,7 +36,7 @@ a {
 }
 
 // reusable image sections
-.img1, .img2, .img3, .img4, .img5, .img6 {
+.img {
     margin: 0 0 2em 0;
 
     h3 {
@@ -143,9 +143,91 @@ h1 {
 
             // section2 //
 
+#section2 {
+    border-top: 2px solid $border-color;
+    padding-top: 2.25em;
+}
+
 .recent_work {
     font-size: 1.2em;
 } 
+
+
+//////////////////// MEDIA QUERIES ////////////////////
+
+@media (min-width: 426px) {
+
+    // HEADER //
+    header {
+        padding: 6em 4em;
+    }
+
+    h1 {
+        font-size: 1.75em;
+    }
+
+    // SECTION 1 & 2 //
+
+    .main {
+        padding: 6em 4em;
+    }
+
+    .full_width.section1 {
+        display: inline;
+    }
+
+    .table {
+        display: table;
+    }
+
+    .row {
+        display: table-row;
+        padding-bottom: 2em;
+
+        > :first-child {
+            padding-right: 1em;    
+        }
+
+        > :nth-child(2) {
+            padding-left: 1em;
+        }
+
+    }
+
+    .img {
+        display: table-cell;
+        padding-bottom: 2em;
+        
+    }
+
+    // section1
+
+    #section1 {
+        margin: 0 0 4em 0;
+    }
+
+    .main_head {
+        font-size: 2.2em;
+    }
+
+    .button {
+        width: 10em;
+    }
+
+    // section2
+
+    #section2 {
+        padding-top: 4em;
+    }
+
+    .recent_work {
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+
+
+
+}
 
 
 
