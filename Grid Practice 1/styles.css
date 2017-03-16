@@ -139,19 +139,19 @@ body {
   display: table; }
 
 .logo-wrap,
-.nav-wrap {
+nav {
   display: table-cell;
   vertical-align: middle; }
 
 .logo-wrap {
   text-align: left; }
 
-.nav-wrap {
+nav {
   text-align: right;
   width: 100%; }
 
 .logo,
-nav {
+nav.link {
   display: inline-block; }
 
 .forty {

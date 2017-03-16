@@ -38,20 +38,20 @@ body {
 }
 
 .logo-wrap,
-.nav-wrap {
+nav {
     display: table-cell;
     vertical-align: middle;
 }
 
 .logo-wrap {text-align: left;}
 
-.nav-wrap {
+nav {
     text-align: right;
     width: 100%;
 }
 
 .logo,
-nav {display: inline-block;}
+nav.link {display: inline-block;}
 
 .forty {
     padding: .2em;
