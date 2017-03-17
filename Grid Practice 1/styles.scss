@@ -134,7 +134,7 @@ nav.link {display: inline-block;}
     padding: 6em 0;
 }
 
-.img-title {
+.body-title {
     font-size: 1.5em;
     border-bottom: 2px solid $white;
     padding: 0 3em .35em 0;
@@ -142,13 +142,82 @@ nav.link {display: inline-block;}
     display: inline-block;
 }
 
-.img-subtitle {
+.body-subtitle {
     text-transform: uppercase;
     font-size: .6em;
     letter-spacing: .15em;
 }
 
 
+
+//////////////////// INFO SECTION ////////////////////
+
+#info {
+    padding: 3em 1.5em;
+}
+
+#info-title {margin-bottom: 1.5em;}
+
+#info-text {
+    line-height: 1.75em;
+    text-transform: none;
+    font-size: .75em;
+    font-weight: 200;
+    margin-bottom: 2em;
+}
+
+
+
+
+//////////////////// CONTACT SECTION ////////////////////
+
+.form-wrap {padding: 3em 1.5em;}
+
+.name,
+.email,
+.message {
+    display: block; //stacks the label above their respective inputs
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-size: .75em;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.name-input,
+.email-input,
+.message-input {
+    width: 100%;
+    margin-bottom: 3em;
+    border-style: none;
+}
+
+.name-input,
+.email-input {height: 3.75em;}
+
+//BUTTONS
+    .send,
+    .clear {
+        text-transform: uppercase;
+        font-size: .7em;
+        letter-spacing: 1px;
+        padding: 1em;
+        border: 2px solid $white;
+        font-weight: 600;
+    }
+
+    .send {
+        width: 60%;
+        margin-right: 1em;
+        
+    }
+
+    .clear {
+        width: 30%;
+
+    }
+
+    
 
 
 
@@ -167,6 +236,8 @@ nav.link {display: inline-block;}
 
 //////////////////// COLORS ////////////////////
 
+link:visited {color: $white;}
+
 .getstarted-text {
     color: $white;
 }
@@ -176,13 +247,13 @@ svg {fill: $white;}
 //HEADER
     #header,
     .banner {
-        background: $head-foot;
+        background: $head;
         color: $white;
     }
 
     .forty {
         background: $white;
-        color: $head-foot;
+        color: $head;
     }
 
 //IMAGE GALLERY
@@ -194,8 +265,33 @@ svg {fill: $white;}
     #five {background: $five;}
     #six {background: $six;}
 
-    .img-title,
-    .img-subtitle {color:$white;}
+    .body-title,
+    .body-subtitle {color:$white;}
+
+//INFO SECTION
+    #info {background: $head;}
+
+//CONTACT SECTION 
+    .form-wrap {background: $form-bg;}
+
+    //input backgrounds
+    .name-input,
+    .email-input,
+    .message-input {background: $head;}
+
+    .contact {color: $white;}
+
+    //button colors
+    .send {
+        background-color: $white;
+        color: $form-bg;
+    }
+
+    .clear {
+        background-color: $form-bg;
+        color: $white;
+    }
+
 
     
 

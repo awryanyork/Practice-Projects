@@ -211,17 +211,73 @@ nav.link {
 .heading-wrap {
   padding: 6em 0; }
 
-.img-title {
+.body-title {
   font-size: 1.5em;
   border-bottom: 2px solid #FFFFFF;
   padding: 0 3em .35em 0;
   margin-bottom: .5em;
   display: inline-block; }
 
-.img-subtitle {
+.body-subtitle {
   text-transform: uppercase;
   font-size: .6em;
   letter-spacing: .15em; }
+
+#info {
+  padding: 3em 1.5em; }
+
+#info-title {
+  margin-bottom: 1.5em; }
+
+#info-text {
+  line-height: 1.75em;
+  text-transform: none;
+  font-size: .75em;
+  font-weight: 200;
+  margin-bottom: 2em; }
+
+.form-wrap {
+  padding: 3em 1.5em; }
+
+.name,
+.email,
+.message {
+  display: block;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  font-size: .75em;
+  letter-spacing: 2px;
+  font-weight: 600; }
+
+.name-input,
+.email-input,
+.message-input {
+  width: 100%;
+  margin-bottom: 3em;
+  border-style: none; }
+
+.name-input,
+.email-input {
+  height: 3.75em; }
+
+.send,
+.clear {
+  text-transform: uppercase;
+  font-size: .7em;
+  letter-spacing: 1px;
+  padding: 1em;
+  border: 2px solid #FFFFFF;
+  font-weight: 600; }
+
+.send {
+  width: 60%;
+  margin-right: 1em; }
+
+.clear {
+  width: 30%; }
+
+link:visited {
+  color: #FFFFFF; }
 
 .getstarted-text {
   color: #FFFFFF; }
@@ -231,12 +287,12 @@ svg {
 
 #header,
 .banner {
-  background: #232A46;
+  background: #2A2F4A;
   color: #FFFFFF; }
 
 .forty {
   background: #FFFFFF;
-  color: #232A46; }
+  color: #2A2F4A; }
 
 #one {
   background: #74BBD4; }
@@ -256,8 +312,30 @@ svg {
 #six {
   background: #7DB198; }
 
-.img-title,
-.img-subtitle {
+.body-title,
+.body-subtitle {
+  color: #FFFFFF; }
+
+#info {
+  background: #2A2F4A; }
+
+.form-wrap {
+  background: #242943; }
+
+.name-input,
+.email-input,
+.message-input {
+  background: #2A2F4A; }
+
+.contact {
+  color: #FFFFFF; }
+
+.send {
+  background-color: #FFFFFF;
+  color: #242943; }
+
+.clear {
+  background-color: #242943;
   color: #FFFFFF; }
 
 /*# sourceMappingURL=styles.css.map */
