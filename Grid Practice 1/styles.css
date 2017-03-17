@@ -130,10 +130,6 @@ body {
 .nav-text {
   display: none; }
 
-#header,
-.banner {
-  background-image: url("images/banner.jpg"); }
-
 #header {
   padding: .25em .8em;
   display: table; }
@@ -204,6 +200,29 @@ nav.link {
 .arrow {
   width: 80%; }
 
+#one, #two, #three, #four, #five, #six {
+  text-align: left;
+  padding: 1.5em;
+  height: 16em; }
+
+.img-wrap.link {
+  display: block; }
+
+.heading-wrap {
+  padding: 6em 0; }
+
+.img-title {
+  font-size: 1.5em;
+  border-bottom: 2px solid #FFFFFF;
+  padding: 0 3em .35em 0;
+  margin-bottom: .5em;
+  display: inline-block; }
+
+.img-subtitle {
+  text-transform: uppercase;
+  font-size: .6em;
+  letter-spacing: .15em; }
+
 .getstarted-text {
   color: #FFFFFF; }
 
@@ -212,10 +231,33 @@ svg {
 
 #header,
 .banner {
+  background: #232A46;
   color: #FFFFFF; }
 
 .forty {
   background: #FFFFFF;
-  color: #242943; }
+  color: #232A46; }
+
+#one {
+  background: #74BBD4; }
+
+#two {
+  background: #827AB6; }
+
+#three {
+  background: #DD8B83; }
+
+#four {
+  background: #D8AE88; }
+
+#five {
+  background: #839AD2; }
+
+#six {
+  background: #7DB198; }
+
+.img-title,
+.img-subtitle {
+  color: #FFFFFF; }
 
 /*# sourceMappingURL=styles.css.map */

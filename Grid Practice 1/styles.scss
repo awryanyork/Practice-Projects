@@ -27,10 +27,7 @@ body {
     display: none;
 }
 
-#header,
-.banner {
-    background-image: url("images/banner.jpg");
-}
+
 
 #header {
     padding: .25em .8em;
@@ -64,7 +61,7 @@ nav.link {display: inline-block;}
     width: 25px;
 }
 
-//////////////////// BANNERs ////////////////////
+//////////////////// BANNER ////////////////////
 
 .banner {
     padding: 4em 1.2em 6em;
@@ -118,6 +115,43 @@ nav.link {display: inline-block;}
 
 
 
+//////////////////// IMAGE GALLERY ////////////////////
+
+
+// sets up the image gallery sections so they will be uniform 
+#one, #two, #three, #four, #five, #six {
+    text-align: left;
+    padding: 1.5em;
+    height: 16em;
+}
+
+.img-wrap.link {
+    display: block;
+}
+
+// vertically aligns the title and subtitle in the images
+.heading-wrap {
+    padding: 6em 0;
+}
+
+.img-title {
+    font-size: 1.5em;
+    border-bottom: 2px solid $white;
+    padding: 0 3em .35em 0;
+    margin-bottom: .5em;
+    display: inline-block;
+}
+
+.img-subtitle {
+    text-transform: uppercase;
+    font-size: .6em;
+    letter-spacing: .15em;
+}
+
+
+
+
+
 
 
 
@@ -141,12 +175,27 @@ svg {fill: $white;}
 
 //HEADER
     #header,
-    .banner {color: $white;}
+    .banner {
+        background: $head-foot;
+        color: $white;
+    }
 
     .forty {
         background: $white;
-        color: $darkblue;
+        color: $head-foot;
     }
+
+//IMAGE GALLERY
+    //image gallery backgrounds
+    #one {background: $one;}
+    #two {background: $two;}
+    #three {background: $three;}
+    #four {background: $four;}
+    #five {background: $five;}
+    #six {background: $six;}
+
+    .img-title,
+    .img-subtitle {color:$white;}
 
     
 
