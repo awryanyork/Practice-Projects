@@ -169,7 +169,7 @@ nav.link {display: inline-block;}
 
 
 
-//////////////////// CONTACT SECTION ////////////////////
+//////////////////// FORM SECTION ////////////////////
 
 .form-wrap {padding: 3em 1.5em;}
 
@@ -195,32 +195,76 @@ nav.link {display: inline-block;}
 .name-input,
 .email-input {height: 3.75em;}
 
-//BUTTONS
-    .send,
-    .clear {
-        text-transform: uppercase;
-        font-size: .7em;
-        letter-spacing: 1px;
-        padding: 1em;
-        border: 2px solid $white;
-        font-weight: 600;
-    }
+//buttons
+.send,
+.clear {
+    text-transform: uppercase;
+    font-size: .7em;
+    letter-spacing: 1px;
+    padding: 1em;
+    border: 2px solid $white;
+    font-weight: 600;
+}
 
-    .send {
-        width: 60%;
-        margin-right: 1em;
-        
-    }
+.send {
+    width: 60%;
+    margin-right: 1em;
+    
+}
 
-    .clear {
-        width: 30%;
-
-    }
+.clear {
+    width: 30%;
+}
 
     
 
+//////////////////// CONTACT SECTION ////////////////////
 
+.contact {
+    padding: 0 1.5em;
+}
 
+.contact-method {
+    padding: 2.5em 0;
+    border-top: 2px solid $head;
+}
+
+.contact-icon,
+.contact-head {
+    vertical-align: middle;
+    margin-bottom: 1em;
+}
+
+.contact-icon {
+    display: inline-block;
+    width: 4%;
+    padding: .5em;
+    border-radius: 100%;
+    margin-right: 1em;
+}
+
+.contact-head {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.details {
+    display: block;
+    font-size: .85em;
+    font-weight: 200;
+    margin: 0 0 0 3.5em;
+    line-height: 1.5em;
+}
+
+.email-wrap {
+    display: block;
+}
+
+#email {
+        border-bottom: 1px dotted $white;
+        display: inline-block;
+    }
 
 
 
@@ -271,7 +315,7 @@ svg {fill: $white;}
 //INFO SECTION
     #info {background: $head;}
 
-//CONTACT SECTION 
+//FORM SECTION 
     .form-wrap {background: $form-bg;}
 
     //input backgrounds
@@ -291,6 +335,19 @@ svg {fill: $white;}
         background-color: $form-bg;
         color: $white;
     }
+
+//CONTACT SECTION
+    .contact {
+        background: $form-bg;
+        color: $white;
+    }
+
+    .contact-icon {
+        background: $white;
+        fill: $form-bg;
+    }
+
+
 
 
     

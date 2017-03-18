@@ -276,6 +276,44 @@ nav.link {
 .clear {
   width: 30%; }
 
+.contact {
+  padding: 0 1.5em; }
+
+.contact-method {
+  padding: 2.5em 0;
+  border-top: 2px solid #2A2F4A; }
+
+.contact-icon,
+.contact-head {
+  vertical-align: middle;
+  margin-bottom: 1em; }
+
+.contact-icon {
+  display: inline-block;
+  width: 4%;
+  padding: .5em;
+  border-radius: 100%;
+  margin-right: 1em; }
+
+.contact-head {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.1em; }
+
+.details {
+  display: block;
+  font-size: .85em;
+  font-weight: 200;
+  margin: 0 0 0 3.5em;
+  line-height: 1.5em; }
+
+.email-wrap {
+  display: block; }
+
+#email {
+  border-bottom: 1px dotted #FFFFFF;
+  display: inline-block; }
+
 link:visited {
   color: #FFFFFF; }
 
@@ -337,5 +375,13 @@ form {
 .clear {
   background-color: #242943;
   color: #FFFFFF; }
+
+.contact {
+  background: #242943;
+  color: #FFFFFF; }
+
+.contact-icon {
+  background: #FFFFFF;
+  fill: #242943; }
 
 /*# sourceMappingURL=styles.css.map */
