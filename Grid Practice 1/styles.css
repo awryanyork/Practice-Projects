@@ -314,6 +314,31 @@ nav.link {
   border-bottom: 1px dotted #FFFFFF;
   display: inline-block; }
 
+.footer {
+  padding: 2em 1.5em;
+  border-top: 2px solid #2A2F4A; }
+
+.social.link {
+  display: inline-block; }
+
+.social-icon {
+  width: 1em;
+  border-radius: 100%;
+  padding: .45em;
+  vertical-align: center;
+  margin: 0 .5em 1.5em 0; }
+
+.copyright,
+.design-credit {
+  font-size: .7em;
+  letter-spacing: 1px; }
+
+.copyright {
+  margin-bottom: .5em; }
+
+.credit-underline {
+  border-bottom: 1px dotted rgba(244, 244, 255, 0.2); }
+
 link:visited {
   color: #FFFFFF; }
 
@@ -383,5 +408,16 @@ form {
 .contact-icon {
   background: #FFFFFF;
   fill: #242943; }
+
+.footer {
+  background: #242943; }
+
+.social-icon {
+  background: #FFFFFF;
+  fill: #242943; }
+
+.copyright,
+.design-credit {
+  color: rgba(244, 244, 255, 0.2); }
 
 /*# sourceMappingURL=styles.css.map */

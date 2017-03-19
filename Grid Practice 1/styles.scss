@@ -268,6 +268,44 @@ nav.link {display: inline-block;}
 
 
 
+//////////////////// FOOTER ////////////////////
+
+.footer {
+    padding: 2em 1.5em;
+    border-top: 2px solid $head;
+}
+
+
+.social.link {
+    display: inline-block;
+}
+
+.social-icon {
+    width: 1em;
+    border-radius: 100%;
+    padding: .45em;
+    vertical-align: center;
+    margin: 0 .5em 1.5em 0;
+}
+
+.copyright,
+.design-credit {
+    font-size: .7em;
+    letter-spacing: 1px;
+}
+
+.copyright {
+    margin-bottom: .5em;
+}
+
+.credit-underline {
+    border-bottom: 1px dotted $footer-text;
+}
+
+
+
+
+
 
 
 
@@ -346,6 +384,19 @@ svg {fill: $white;}
         background: $white;
         fill: $form-bg;
     }
+
+
+//FOOTER
+    .footer{background: $form-bg;}
+    
+    .social-icon {
+        background: $white;
+        fill: $form-bg;
+    }
+
+    .copyright,
+    .design-credit {color: $footer-text;}
+
 
 
 
