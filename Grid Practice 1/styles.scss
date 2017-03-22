@@ -419,6 +419,7 @@ svg {fill: $white;}
 
 @media (min-width: 480px) {
 
+//medium grid
 .col-md-1 {width: 6.25%;}
 .col-md-2 {width: 12.5%;}
 .col-md-3 {width: 18.75%;}
@@ -437,6 +438,31 @@ svg {fill: $white;}
 .col-md-16 {width: 100%;}
 
 ///// HEADER /////
+
+.banner {
+    text-align: left;
+    padding: 2.5em 1.2em 3em;
+}
+
+///// IMAGE GALLERY /////
+
+#one, #two, #three, #four, #five, #six {
+    height: 14em;
+    padding: 2em;
+}
+
+.heading-wrap {
+    padding: 5em 0;
+}
+
+.body-title {
+    font-size: 2em;
+    padding-right: 2em;
+}
+
+.body-subtitle {
+    font-size: .7em;
+}
 
 }
 

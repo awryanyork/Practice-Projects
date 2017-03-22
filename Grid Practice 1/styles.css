@@ -481,6 +481,24 @@ form {
     width: 93.75%; }
 
   .col-md-16 {
-    width: 100%; } }
+    width: 100%; }
+
+  .banner {
+    text-align: left;
+    padding: 2.5em 1.2em 3em; }
+
+  #one, #two, #three, #four, #five, #six {
+    height: 14em;
+    padding: 2em; }
+
+  .heading-wrap {
+    padding: 5em 0; }
+
+  .body-title {
+    font-size: 2em;
+    padding-right: 2em; }
+
+  .body-subtitle {
+    font-size: .7em; } }
 
 /*# sourceMappingURL=styles.css.map */
