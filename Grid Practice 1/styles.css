@@ -349,6 +349,9 @@ nav {
 .credit-underline {
   border-bottom: 1px dotted rgba(244, 244, 255, 0.2); }
 
+.credit-divider {
+  display: none; }
+
 link:visited {
   color: #FFFFFF; }
 
@@ -431,6 +434,7 @@ form {
   fill: #242943; }
 
 .copyright,
+.credit-divider,
 .design-credit {
   color: rgba(244, 244, 255, 0.2); }
 
@@ -495,10 +499,43 @@ form {
     padding: 5em 0; }
 
   .body-title {
-    font-size: 2em;
+    font-size: 1.5em;
     padding-right: 2em; }
 
   .body-subtitle {
-    font-size: .7em; } }
+    font-size: .7em; }
+
+  .name-container,
+  .email-container {
+    display: inline-block;
+    width: 47.5%; }
+
+  .name-container {
+    float: left; }
+
+  .email-container {
+    float: right; }
+
+  .message {
+    clear: both; }
+
+  .send {
+    width: 35%; }
+
+  .clear {
+    width: 20%; }
+
+  .social-icon {
+    width: 1.2em; }
+
+  .copyright,
+  .credit-divider,
+  .design-credit {
+    display: inline-block;
+    text-align: left; }
+
+  .credit-wrap {
+    display: block;
+    text-align: left; } }
 
 /*# sourceMappingURL=styles.css.map */

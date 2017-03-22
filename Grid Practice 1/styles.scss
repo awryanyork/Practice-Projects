@@ -311,6 +311,9 @@ nav {
     border-bottom: 1px dotted $footer-text;
 }
 
+//hide the divider for mobile
+.credit-divider {display: none;}
+
 
 
 
@@ -407,6 +410,7 @@ svg {fill: $white;}
     }
 
     .copyright,
+    .credit-divider,
     .design-credit {color: $footer-text;}
 
 
@@ -456,13 +460,56 @@ svg {fill: $white;}
 }
 
 .body-title {
-    font-size: 2em;
+    font-size: 1.5em;
     padding-right: 2em;
 }
 
 .body-subtitle {
     font-size: .7em;
 }
+
+
+///// CONTACT SESSION /////
+
+//puts the name and email side by side
+.name-container,
+.email-container {
+    display: inline-block;
+    width: 47.5%;
+}
+
+.name-container {float: left;}
+
+.email-container {float: right;}
+
+.message {clear: both;}
+
+//resizes the buttons at bottom of form
+.send {width: 35%;}
+
+.clear {width: 20%;}
+
+
+///// CONTACT SESSION /////
+
+.social-icon {width: 1.2em;}
+
+.copyright,
+.credit-divider,
+.design-credit {
+    display: inline-block;
+    text-align: left;
+}
+
+.credit-wrap {
+    display: block;
+    text-align: left;
+}
+
+
+
+
+
 
 }
 
