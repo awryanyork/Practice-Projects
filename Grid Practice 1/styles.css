@@ -537,5 +537,80 @@ form {
   .credit-wrap {
     display: block;
     text-align: left; } }
+@media (min-width: 768px) {
+  .col-lg-1 {
+    width: 6.25%; }
+
+  .col-lg-2 {
+    width: 12.5%; }
+
+  .col-lg-3 {
+    width: 18.75%; }
+
+  .col-lg-4 {
+    width: 25%; }
+
+  .col-lg-5 {
+    width: 31.25%; }
+
+  .col-lg-6 {
+    width: 37.5%; }
+
+  .col-lg-7 {
+    width: 43.75%; }
+
+  .col-lg-8 {
+    width: 50%; }
+
+  .col-lg-9 {
+    width: 56.25%; }
+
+  .col-lg-10 {
+    width: 62.5%; }
+
+  .col-lg-11 {
+    width: 68.75%; }
+
+  .col-lg-12 {
+    width: 75%; }
+
+  .col-lg-13 {
+    width: 81.25%; }
+
+  .col-lg-14 {
+    width: 87.5%; }
+
+  .col-lg-15 {
+    width: 93.75%; }
+
+  .col-lg-16 {
+    width: 100%; }
+
+  .banner {
+    padding: 10em 3em; }
+
+  .title {
+    font-size: 3em; }
+
+  .subtitle {
+    display: inline-block;
+    width: 70%; }
+
+  .getstarted-wrap.top {
+    display: inline-block; }
+
+  #info {
+    padding: 4em; }
+
+  .contact {
+    padding: 0; }
+
+  .contact-method {
+    border-left: 2px solid #2A2F4A;
+    padding-left: 2em; }
+
+  .form-wrap {
+    height: 100%;
+    padding: 3.45em 3em; } }
 
 /*# sourceMappingURL=styles.css.map */
