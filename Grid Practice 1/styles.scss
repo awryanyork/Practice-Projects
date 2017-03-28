@@ -315,19 +315,6 @@ nav {
 .credit-divider {display: none;}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 //////////////////// COLORS ////////////////////
 
 link:visited {color: $white;}
@@ -369,7 +356,8 @@ svg {fill: $white;}
     #info {background: $head;}
 
 //FORM SECTION 
-    .form-wrap {background: $form-bg;}
+    .form-wrap,
+    .form-wrap:before {background: $form-bg;}
 
     //input backgrounds
     .name-input,
@@ -448,6 +436,16 @@ svg {fill: $white;}
     padding: 2.5em 1.2em 3em;
 }
 
+.logo-wrap {
+    white-space: nowrap;
+}
+
+.forty,
+.html5up,
+.nav-text {
+    display: inline-block;
+}
+
 ///// IMAGE GALLERY /////
 
 #one, #two, #three, #four, #five, #six {
@@ -470,6 +468,20 @@ svg {fill: $white;}
 
 
 ///// CONTACT SECTION /////
+
+.row.equal_height {
+    position: relative;
+}
+
+.form-wrap:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 62.5%;
+    left: 0;
+    z-index: -1;
+}
 
 //puts the name and email side by side
 .name-container,

@@ -399,7 +399,8 @@ svg {
 #info {
   background: #2A2F4A; }
 
-.form-wrap {
+.form-wrap,
+.form-wrap:before {
   background: #242943; }
 
 .name-input,
@@ -491,6 +492,14 @@ form {
     text-align: left;
     padding: 2.5em 1.2em 3em; }
 
+  .logo-wrap {
+    white-space: nowrap; }
+
+  .forty,
+  .html5up,
+  .nav-text {
+    display: inline-block; }
+
   #one, #two, #three, #four, #five, #six {
     height: 14em;
     padding: 2em; }
@@ -504,6 +513,18 @@ form {
 
   .body-subtitle {
     font-size: .7em; }
+
+  .row.equal_height {
+    position: relative; }
+
+  .form-wrap:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 62.5%;
+    left: 0;
+    z-index: -1; }
 
   .name-container,
   .email-container {
