@@ -1,0 +1,84 @@
+@import 'reset';
+@import 'typography';
+@import 'vars';
+
+////////// Base Styles //////////
+*,
+*::before,
+*::after {box-sizing: border-box}
+
+
+//flex containers
+body,
+header,
+.container,
+.button-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+body {width: 100%;}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    
+}
+
+a {text-decoration: none;}
+
+///// Header /////
+.hero {
+    width: 100%;
+    height: 290px;
+}
+
+.container {padding: 2.8rem 0;}
+
+h1 {margin-bottom: .5em;}
+
+hr {
+    width: 20%;
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+.ethereal {font-weight: bold;}
+
+.html5up {border-bottom: 1px dotted;}
+
+.button-wrap {
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-top: 1.75rem;
+}
+
+
+////////// Colors //////////
+//backgrounds
+.main-wrap {background: linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);}
+
+//text
+.title {color: $title-color;}
+
+.paragraph, 
+.html5up {color: $paragraph-color;}
+
+.htlm5up {border-color: $paragraph-color;}
+
+//buttons
+.button-wrap {background: $white;}
+
+.button {color: $arrow-color;}
+
+//links
+a::visited {color: inherit;}
+
+
+
+
+
+
