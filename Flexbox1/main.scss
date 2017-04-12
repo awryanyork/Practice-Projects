@@ -13,7 +13,9 @@ body,
 header,
 .container,
 .button-wrap,
-.sed {
+.sed,
+.icon-wrap,
+.icon-link {
     display: flex;
     flex-direction: column;
 }
@@ -23,7 +25,6 @@ body {width: 100%;}
 .container {
     width: 85%;
     margin: 0 auto;
-    
 }
 
 a {text-decoration: none;}
@@ -36,6 +37,7 @@ a {text-decoration: none;}
 }
 
 .section-title-under {border-bottom: 1px solid;}
+
 
 ///// Header /////
 .hero {
@@ -64,16 +66,42 @@ a {text-decoration: none;}
 }
 
 ///// Sed /////
-
 .sed {
     background-image: url(images/pic02.jpg);
     padding: 2rem 0;    
 }
 
+///// Amet /////
+.icon-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1.5rem auto 0;
+    max-width: 280px;
+
+}
+
+li {margin-bottom: 1rem;}
+
+.icon-link {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 100%;
+    border: 2px solid;
+    justify-content: center;
+    align-items: center;
+    flex: 1 100%;
+}
+
+
 
 ////////// Colors //////////
 //backgrounds
+body {background-image: url(images/bg.jpg);}
+
 .main-wrap {background: linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);}
+
+.amet {background: linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));}
 
 //text
 .title,
@@ -91,6 +119,9 @@ a {text-decoration: none;}
 .button-wrap {background: $white;}
 
 .button {color: $arrow-color;}
+
+.icon-link {border-color: $hr-color;}
+.icon {color: $white;};
 
 //links
 a::visited {color: inherit;}
