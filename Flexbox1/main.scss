@@ -12,7 +12,8 @@
 body,
 header,
 .container,
-.button-wrap {
+.button-wrap,
+.sed {
     display: flex;
     flex-direction: column;
 }
@@ -27,6 +28,15 @@ body {width: 100%;}
 
 a {text-decoration: none;}
 
+.title-underline,
+.section-title-underline {
+    width: 20%;
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+.section-title-under {border-bottom: 1px solid;}
+
 ///// Header /////
 .hero {
     width: 100%;
@@ -35,13 +45,10 @@ a {text-decoration: none;}
 
 .container {padding: 2.8rem 0;}
 
-h1 {margin-bottom: .5em;}
+.title,
+.section-title {margin-bottom: 1.25rem;}
 
-hr {
-    width: 20%;
-    margin: 0 0 1em 0;
-    padding: 0;
-}
+.title-underline {border-bottom: 2px solid;}
 
 .ethereal {font-weight: bold;}
 
@@ -56,18 +63,29 @@ hr {
     margin-top: 1.75rem;
 }
 
+///// Sed /////
+
+.sed {
+    background-image: url(images/pic02.jpg);
+    padding: 2rem 0;    
+}
+
 
 ////////// Colors //////////
 //backgrounds
 .main-wrap {background: linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);}
 
 //text
-.title {color: $title-color;}
+.title,
+.section-title {color: $title-color;}
 
 .paragraph, 
 .html5up {color: $paragraph-color;}
 
 .htlm5up {border-color: $paragraph-color;}
+
+.title-underline,
+.section-title-underline {border-color: $hr-color;}
 
 //buttons
 .button-wrap {background: $white;}
