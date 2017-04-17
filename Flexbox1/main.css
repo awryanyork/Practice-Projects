@@ -66,6 +66,7 @@ h1 {
   box-sizing: border-box; }
 
 body,
+.page-wrap,
 header,
 .container,
 .button-wrap,
@@ -214,5 +215,50 @@ body {
 
 a::visited {
   color: inherit; }
+
+@media (min-width: 600px) {
+  body,
+  .page-wrap {
+    flex-wrap: nowrap;
+    overflow: scroll; }
+
+  body,
+  .page-wrap,
+  header,
+  .image-gallery,
+  .amet {
+    flex-direction: row; }
+
+  body {
+    height: 100vh;
+    align-items: center; }
+
+  .page-wrap {
+    height: 32rem;
+    padding: 5rem; }
+
+  header,
+  .sed,
+  .amet,
+  .magna,
+  .elit,
+  .image-gallery,
+  .contact {
+    flex: 0 0 auto; }
+
+  .container {
+    padding: 2rem 0;
+    height: 100%;
+    justify-content: center; }
+
+  .hero {
+    height: 100%;
+    width: 12.5%; }
+
+  .main-head-wrap {
+    width: 30%; }
+
+  .sed {
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

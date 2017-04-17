@@ -10,6 +10,7 @@
 
 //flex containers
 body,
+.page-wrap,
 header,
 .container,
 .button-wrap,
@@ -170,7 +171,8 @@ body {background-image: url(images/overlay.png), url(images/bg.jpg);}
 a::visited {color: inherit;}
 
 
-
+///// MEDIA QUERIES IMPORT /////
+@import 'queries';
 
 
 

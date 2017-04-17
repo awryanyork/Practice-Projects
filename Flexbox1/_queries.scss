@@ -1,0 +1,62 @@
+@media (min-width: 600px) {
+
+    ////////// Layout //////////
+
+    body,
+    .page-wrap {
+        flex-wrap: nowrap; // enables side scrolling
+        overflow: scroll;   // enables side scrolling
+    }
+
+    body,
+    .page-wrap,
+    header,
+    .image-gallery,
+    .amet {
+        flex-direction: row;
+    }
+
+    body {
+        height: 100vh; // sets body to be full height so you can vertically center the page wrapper
+        align-items: center;
+    }
+
+    .page-wrap {
+        height: 32rem;
+        padding: 5rem;
+    }
+
+    // makes the flex items of page-wrap side scrolling
+    header,
+    .sed,
+    .amet,
+    .magna,
+    .elit,
+    .image-gallery,
+    .contact {
+        flex: 0 0 auto;
+    }
+
+    .container {
+        padding: 2rem 0;
+        height: 100%;
+        justify-content: center;
+    }
+
+    ///// Header /////
+    
+
+    .hero {
+        height: 100%;
+        width: 12.5%;    
+    }
+
+    .main-head-wrap {
+        width: 30%;
+    }
+
+    ///// Sed /////
+    .sed {width: 100%;}
+
+
+}
